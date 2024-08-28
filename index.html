@@ -58,10 +58,25 @@
         animation: img 18s infinite ease-out;
         animation-delay: 9s;
       }
-t
       .img-5 {
         animation: img 18s infinite ease-out;
         animation-delay: 12s;
+      }
+      .img-final {
+        animation: img 18s infinite ease-out;
+        animation-delay: 16s;
+      }
+
+      @keyframes img-final {
+        0% {
+          opacity: 0;
+          scale: 1;
+        }
+
+        100% {
+          opacity: 1;
+          scale: 1;
+        }
       }
 
       @keyframes img {
@@ -100,6 +115,7 @@ t
       <img class="img-3" src="img/3.jpg" alt="" />
       <img class="img-4" src="img/4.jpg" alt="" />
       <img class="img-5" src="img/5.jpg" alt="" />
+      <img class="img-final" src="img/1.jpg" alt="" />
       <img class="img-0" src="img/0.jpg" alt="" />
     </section>
   </body>
